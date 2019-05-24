@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="293dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/custom_text"
+        android:drawableLeft="@drawable/icon"
+        android:paddingLeft="10dp"
+        android:hint="Enter your name"
+        android:textSize="20dp"
+        android:drawablePadding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="287dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_text"
+        android:drawableLeft="@drawable/icon2"
+        android:drawablePadding="10dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/custom_button"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>
